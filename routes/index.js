@@ -3,6 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/login', (req, res) => {
+  console.log('hellow ro');
   res.render('login');
 })
 
